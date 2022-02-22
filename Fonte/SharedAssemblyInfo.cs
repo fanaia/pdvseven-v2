@@ -64,6 +64,8 @@ Lista das últimas versões e FIX
     O WS2 é responsável em bloquear versão antiga dos aplicativos, e fornecer o link do correto para download
     Especificar o tipo de cada alteração feita: Novo, Melhoria, Correção, TDD, Atualização
 
+Teste repositorio
+
 2.21.1.10 ======================================================================
     Migração GitHub
 

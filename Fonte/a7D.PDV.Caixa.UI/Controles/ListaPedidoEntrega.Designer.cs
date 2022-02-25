@@ -1,4 +1,7 @@
-﻿namespace a7D.PDV.Caixa.UI.Controles
+﻿using System.Drawing;
+using System.Windows.Forms;
+
+namespace a7D.PDV.Caixa.UI.Controles
 {
     partial class ListaPedidoEntrega
     {
@@ -61,7 +64,7 @@
             this.txtPesquisarEntrega.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtPesquisarEntrega.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPesquisarEntrega.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPesquisarEntrega.Location = new System.Drawing.Point(190, 53);
+            this.txtPesquisarEntrega.Location = new System.Drawing.Point(190, 95);
             this.txtPesquisarEntrega.Margin = new System.Windows.Forms.Padding(5);
             this.txtPesquisarEntrega.Name = "txtPesquisarEntrega";
             this.txtPesquisarEntrega.Size = new System.Drawing.Size(335, 28);
@@ -115,7 +118,7 @@
             this.dgvEntregas.DefaultCellStyle = dataGridViewCellStyle8;
             this.dgvEntregas.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvEntregas.EnableHeadersVisualStyles = false;
-            this.dgvEntregas.Location = new System.Drawing.Point(0, 93);
+            this.dgvEntregas.Location = new System.Drawing.Point(0, 149);
             this.dgvEntregas.Margin = new System.Windows.Forms.Padding(5);
             this.dgvEntregas.Name = "dgvEntregas";
             this.dgvEntregas.ReadOnly = true;
@@ -135,7 +138,7 @@
             this.dgvEntregas.RowTemplate.Height = 36;
             this.dgvEntregas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dgvEntregas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvEntregas.Size = new System.Drawing.Size(525, 340);
+            this.dgvEntregas.Size = new System.Drawing.Size(525, 284);
             this.dgvEntregas.TabIndex = 73;
             this.dgvEntregas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEntregas_CellClick);
             this.dgvEntregas.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvEntregas_CellContentDoubleClick);
@@ -232,6 +235,8 @@
             // 
             // btnNovoPedidoEntrega
             // 
+            this.btnNovoPedidoEntrega.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNovoPedidoEntrega.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(198)))), ((int)(((byte)(63)))));
             this.btnNovoPedidoEntrega.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovoPedidoEntrega.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -239,7 +244,7 @@
             this.btnNovoPedidoEntrega.Location = new System.Drawing.Point(0, 0);
             this.btnNovoPedidoEntrega.Margin = new System.Windows.Forms.Padding(7);
             this.btnNovoPedidoEntrega.Name = "btnNovoPedidoEntrega";
-            this.btnNovoPedidoEntrega.Size = new System.Drawing.Size(264, 43);
+            this.btnNovoPedidoEntrega.Size = new System.Drawing.Size(525, 43);
             this.btnNovoPedidoEntrega.TabIndex = 75;
             this.btnNovoPedidoEntrega.Text = "&NOVO PEDIDO ENTREGA";
             this.btnNovoPedidoEntrega.UseVisualStyleBackColor = false;
@@ -247,7 +252,7 @@
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(0, 53);
+            this.label4.Location = new System.Drawing.Point(0, 95);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(181, 28);
@@ -268,16 +273,18 @@
             // 
             // btnNovoPedidoRetirada
             // 
+            this.btnNovoPedidoRetirada.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNovoPedidoRetirada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(198)))), ((int)(((byte)(63)))));
             this.btnNovoPedidoRetirada.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovoPedidoRetirada.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNovoPedidoRetirada.ForeColor = System.Drawing.Color.White;
-            this.btnNovoPedidoRetirada.Location = new System.Drawing.Point(261, 0);
+            this.btnNovoPedidoRetirada.Location = new System.Drawing.Point(0, 40);
             this.btnNovoPedidoRetirada.Margin = new System.Windows.Forms.Padding(7);
             this.btnNovoPedidoRetirada.Name = "btnNovoPedidoRetirada";
-            this.btnNovoPedidoRetirada.Size = new System.Drawing.Size(264, 43);
+            this.btnNovoPedidoRetirada.Size = new System.Drawing.Size(525, 43);
             this.btnNovoPedidoRetirada.TabIndex = 77;
-            this.btnNovoPedidoRetirada.Text = "&NOVO PEDIDO ENTREGA";
+            this.btnNovoPedidoRetirada.Text = "NOVO PEDIDO &RETIRADA";
             this.btnNovoPedidoRetirada.UseVisualStyleBackColor = false;
             this.btnNovoPedidoRetirada.Click += new System.EventHandler(this.btnNovoPedidoRetirada_Click);
             // 

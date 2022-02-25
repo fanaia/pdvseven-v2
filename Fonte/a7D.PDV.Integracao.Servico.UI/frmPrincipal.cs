@@ -5,6 +5,7 @@ using a7D.PDV.Componentes;
 using a7D.PDV.EF.Models;
 using a7D.PDV.Fiscal.Services;
 using a7D.PDV.Integracao.EasyChopp;
+//using a7D.PDV.Integracao.EasyChopp;
 using a7D.PDV.Integracao.ERPCake;
 using a7D.PDV.Integracao.iFood;
 using a7D.PDV.Integracao.NTKServer;

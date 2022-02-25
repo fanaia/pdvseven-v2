@@ -569,16 +569,19 @@ namespace a7D.PDV.Caixa.UI
                 txtNomeCompleto.Text, txtEndereco.Text + txtEnderecoNumero, txtComplemento.Text, txtBairro.Text, txtCidade.Text,
                 txtDocumento1.Text, null, null, true);
 
-            if (enderecoVazio && numeroVazio)
-                msg += "Informe o endereço completo da entrega\n";
-            else if (enderecoVazio)
-                msg += "Informe o endereço da entrega\n";
-            else if (numeroVazio)
-                msg += "Informe o número do endereço da entrega\n";
-            else if (!string.IsNullOrEmpty(txtCEP.Text) && !int.TryParse(txtCEP.Text, out cep))
-                msg += "Informe um CEP válido (somente digitos)";
-            else if (cep > 0 && txtCEP.Text.Length < 8)
-                msg += "Informe o CEP com 8 dígitos";
+            if (Retirada == false)
+            {
+                if (enderecoVazio && numeroVazio)
+                    msg += "Informe o endereço completo da entrega\n";
+                else if (enderecoVazio)
+                    msg += "Informe o endereço da entrega\n";
+                else if (numeroVazio)
+                    msg += "Informe o número do endereço da entrega\n";
+                else if (!string.IsNullOrEmpty(txtCEP.Text) && !int.TryParse(txtCEP.Text, out cep))
+                    msg += "Informe um CEP válido (somente digitos)";
+                else if (cep > 0 && txtCEP.Text.Length < 8)
+                    msg += "Informe o CEP com 8 dígitos";
+            }
 
             if (BLL.PDV.PossuiLoggi()) // log
                 txtEnderecoNumero_TextChanged(sender, e);
@@ -1136,23 +1139,27 @@ namespace a7D.PDV.Caixa.UI
                 txtTelefone1Numero.Text = Pedido1.Cliente.Telefone1Numero.ToString();
                 txtDocumento1.Text = Pedido1.Cliente.Documento1;
                 txtRG.Text = Pedido1.Cliente.RG;
-                txtEndereco.Text = Pedido1.Cliente.Endereco;
-                txtEnderecoNumero.Text = Pedido1.Cliente.EnderecoNumero;
-                txtComplemento.Text = Pedido1.Cliente.Complemento;
-                txtBairro.Text = Pedido1.Cliente.Bairro;
-                txtCidade.Text = Pedido1.Cliente.Cidade;
+                if (Retirada == false)
+                {
+                    txtEndereco.Text = Pedido1.Cliente.Endereco;
+                    txtEnderecoNumero.Text = Pedido1.Cliente.EnderecoNumero;
+                    txtComplemento.Text = Pedido1.Cliente.Complemento;
+                    txtBairro.Text = Pedido1.Cliente.Bairro;
+                    txtCidade.Text = Pedido1.Cliente.Cidade;
+                    txtReferencia.Text = Pedido1.Cliente.EnderecoReferencia;
+
+                    if (Pedido1.Cliente.CEP > 0)
+                        txtCEP.Text = Pedido1.Cliente.CEP.Value.ToString("00000000");
+                    else
+                        txtCEP.Text = "";
+
+                    if (Pedido1.Cliente.Estado != null && Pedido1.Cliente.Estado.IDEstado != null)
+                        cbbEstado.SelectedValue = Pedido1.Cliente.Estado.IDEstado;
+                }
                 txtObservacao.Text = Pedido1.Cliente.Observacao;
                 txtClienteEmail.Text = Pedido1.Cliente.Email;
-                txtReferencia.Text = Pedido1.Cliente.EnderecoReferencia;
                 ckbBloqueado.Checked = Pedido1.Cliente.Bloqueado ?? false;
 
-                if (Pedido1.Cliente.CEP > 0)
-                    txtCEP.Text = Pedido1.Cliente.CEP.Value.ToString("00000000");
-                else
-                    txtCEP.Text = "";
-
-                if (Pedido1.Cliente.Estado != null && Pedido1.Cliente.Estado.IDEstado != null)
-                    cbbEstado.SelectedValue = Pedido1.Cliente.Estado.IDEstado;
 
                 if (Pedido1.Cliente.Bloqueado == true)
                     ckbBloqueado.BackColor = Color.Red;

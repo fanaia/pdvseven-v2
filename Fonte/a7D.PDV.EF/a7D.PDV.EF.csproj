@@ -324,9 +324,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Include="Migrations\201711071610129_initial.resx">
       <DependentUpon>201711071610129_initial.cs</DependentUpon>
     </EmbeddedResource>
@@ -384,6 +381,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="Resources\Outros.sql" />
   </ItemGroup>
   <ItemGroup>

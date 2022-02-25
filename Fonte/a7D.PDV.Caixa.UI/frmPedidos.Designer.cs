@@ -97,10 +97,10 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.btnAdicionarCreditos = new System.Windows.Forms.Button();
             this.spContainer = new System.Windows.Forms.SplitContainer();
-            this.listaPedidoComandaSemCheckin1 = new a7D.PDV.Caixa.UI.Controles.ListaPedidoComandaSemCheckin();
-            this.listaPedidoComanda1 = new a7D.PDV.Caixa.UI.Controles.ListaPedidoComanda();
             this.listaPedidoEntrega1 = new a7D.PDV.Caixa.UI.Controles.ListaPedidoEntrega();
             this.listaPedidoMesa1 = new a7D.PDV.Caixa.UI.Controles.ListaPedidoMesa();
+            this.listaPedidoComandaSemCheckin1 = new a7D.PDV.Caixa.UI.Controles.ListaPedidoComandaSemCheckin();
+            this.listaPedidoComanda1 = new a7D.PDV.Caixa.UI.Controles.ListaPedidoComanda();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.tbMenuTop = new System.Windows.Forms.TableLayoutPanel();
             this.menuTEFcancelarTransacao = new System.Windows.Forms.ToolStripMenuItem();
@@ -247,7 +247,7 @@
             this.dgvItens.RowTemplate.Height = 36;
             this.dgvItens.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dgvItens.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvItens.Size = new System.Drawing.Size(449, 108);
+            this.dgvItens.Size = new System.Drawing.Size(459, 108);
             this.dgvItens.TabIndex = 5;
             this.dgvItens.DoubleClick += new System.EventHandler(this.dgvItens_DoubleClick);
             // 
@@ -329,14 +329,14 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(0, 0, 0, 6);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(449, 114);
+            this.panel1.Size = new System.Drawing.Size(459, 114);
             this.panel1.TabIndex = 82;
             // 
             // lblInformacaoAdicional
             // 
             this.lblInformacaoAdicional.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblInformacaoAdicional.Font = new System.Drawing.Font("Arial", 12F);
-            this.lblInformacaoAdicional.Location = new System.Drawing.Point(230, 33);
+            this.lblInformacaoAdicional.Location = new System.Drawing.Point(240, 33);
             this.lblInformacaoAdicional.Name = "lblInformacaoAdicional";
             this.lblInformacaoAdicional.Size = new System.Drawing.Size(216, 26);
             this.lblInformacaoAdicional.TabIndex = 83;
@@ -347,7 +347,7 @@
             // 
             this.lblTaxaEntrega.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblTaxaEntrega.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblTaxaEntrega.Location = new System.Drawing.Point(358, 81);
+            this.lblTaxaEntrega.Location = new System.Drawing.Point(368, 81);
             this.lblTaxaEntrega.Name = "lblTaxaEntrega";
             this.lblTaxaEntrega.Size = new System.Drawing.Size(88, 22);
             this.lblTaxaEntrega.TabIndex = 82;
@@ -357,7 +357,7 @@
             // lblTaxaEntregaTexto
             // 
             this.lblTaxaEntregaTexto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblTaxaEntregaTexto.Location = new System.Drawing.Point(203, 81);
+            this.lblTaxaEntregaTexto.Location = new System.Drawing.Point(213, 81);
             this.lblTaxaEntregaTexto.Name = "lblTaxaEntregaTexto";
             this.lblTaxaEntregaTexto.Size = new System.Drawing.Size(165, 22);
             this.lblTaxaEntregaTexto.TabIndex = 81;
@@ -368,7 +368,7 @@
             // 
             this.lblValorConsumacaoMinima.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblValorConsumacaoMinima.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblValorConsumacaoMinima.Location = new System.Drawing.Point(358, 59);
+            this.lblValorConsumacaoMinima.Location = new System.Drawing.Point(368, 59);
             this.lblValorConsumacaoMinima.Name = "lblValorConsumacaoMinima";
             this.lblValorConsumacaoMinima.Size = new System.Drawing.Size(88, 22);
             this.lblValorConsumacaoMinima.TabIndex = 80;
@@ -378,7 +378,7 @@
             // label7
             // 
             this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label7.Location = new System.Drawing.Point(198, 59);
+            this.label7.Location = new System.Drawing.Point(208, 59);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(170, 22);
             this.label7.TabIndex = 77;
@@ -409,7 +409,7 @@
             // 
             this.lblValorTotal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lblValorTotal.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Bold);
-            this.lblValorTotal.Location = new System.Drawing.Point(221, 4);
+            this.lblValorTotal.Location = new System.Drawing.Point(231, 4);
             this.lblValorTotal.Name = "lblValorTotal";
             this.lblValorTotal.Size = new System.Drawing.Size(225, 34);
             this.lblValorTotal.TabIndex = 74;
@@ -848,10 +848,32 @@
             // 
             this.spContainer.Panel2.Controls.Add(this.tableLayoutPanel3);
             this.spContainer.Size = new System.Drawing.Size(1014, 221);
-            this.spContainer.SplitterDistance = 557;
+            this.spContainer.SplitterDistance = 547;
             this.spContainer.SplitterWidth = 8;
             this.spContainer.TabIndex = 40;
             this.spContainer.SplitterMoved += new System.Windows.Forms.SplitterEventHandler(this.spContainer_SplitterMoved);
+            // 
+            // listaPedidoEntrega1
+            // 
+            this.listaPedidoEntrega1.BackColor = System.Drawing.Color.White;
+            this.listaPedidoEntrega1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listaPedidoEntrega1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listaPedidoEntrega1.Location = new System.Drawing.Point(0, 0);
+            this.listaPedidoEntrega1.Margin = new System.Windows.Forms.Padding(4);
+            this.listaPedidoEntrega1.Name = "listaPedidoEntrega1";
+            this.listaPedidoEntrega1.Size = new System.Drawing.Size(547, 221);
+            this.listaPedidoEntrega1.TabIndex = 88;
+            // 
+            // listaPedidoMesa1
+            // 
+            this.listaPedidoMesa1.BackColor = System.Drawing.Color.White;
+            this.listaPedidoMesa1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listaPedidoMesa1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listaPedidoMesa1.Location = new System.Drawing.Point(0, 0);
+            this.listaPedidoMesa1.Margin = new System.Windows.Forms.Padding(4);
+            this.listaPedidoMesa1.Name = "listaPedidoMesa1";
+            this.listaPedidoMesa1.Size = new System.Drawing.Size(547, 221);
+            this.listaPedidoMesa1.TabIndex = 1;
             // 
             // listaPedidoComandaSemCheckin1
             // 
@@ -863,7 +885,7 @@
             this.listaPedidoComandaSemCheckin1.Margin = new System.Windows.Forms.Padding(4);
             this.listaPedidoComandaSemCheckin1.Name = "listaPedidoComandaSemCheckin1";
             this.listaPedidoComandaSemCheckin1.NumeroComanda = 0;
-            this.listaPedidoComandaSemCheckin1.Size = new System.Drawing.Size(557, 221);
+            this.listaPedidoComandaSemCheckin1.Size = new System.Drawing.Size(547, 221);
             this.listaPedidoComandaSemCheckin1.TabIndex = 91;
             this.listaPedidoComandaSemCheckin1.Visible = false;
             // 
@@ -875,31 +897,9 @@
             this.listaPedidoComanda1.Location = new System.Drawing.Point(0, 0);
             this.listaPedidoComanda1.Margin = new System.Windows.Forms.Padding(5);
             this.listaPedidoComanda1.Name = "listaPedidoComanda1";
-            this.listaPedidoComanda1.Size = new System.Drawing.Size(557, 221);
+            this.listaPedidoComanda1.Size = new System.Drawing.Size(547, 221);
             this.listaPedidoComanda1.TabIndex = 89;
             this.listaPedidoComanda1.Visible = false;
-            // 
-            // listaPedidoEntrega1
-            // 
-            this.listaPedidoEntrega1.BackColor = System.Drawing.Color.White;
-            this.listaPedidoEntrega1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listaPedidoEntrega1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listaPedidoEntrega1.Location = new System.Drawing.Point(0, 0);
-            this.listaPedidoEntrega1.Margin = new System.Windows.Forms.Padding(4);
-            this.listaPedidoEntrega1.Name = "listaPedidoEntrega1";
-            this.listaPedidoEntrega1.Size = new System.Drawing.Size(557, 221);
-            this.listaPedidoEntrega1.TabIndex = 88;
-            // 
-            // listaPedidoMesa1
-            // 
-            this.listaPedidoMesa1.BackColor = System.Drawing.Color.White;
-            this.listaPedidoMesa1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listaPedidoMesa1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listaPedidoMesa1.Location = new System.Drawing.Point(0, 0);
-            this.listaPedidoMesa1.Margin = new System.Windows.Forms.Padding(4);
-            this.listaPedidoMesa1.Name = "listaPedidoMesa1";
-            this.listaPedidoMesa1.Size = new System.Drawing.Size(557, 221);
-            this.listaPedidoMesa1.TabIndex = 1;
             // 
             // tableLayoutPanel3
             // 
@@ -913,7 +913,7 @@
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 120F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(449, 221);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(459, 221);
             this.tableLayoutPanel3.TabIndex = 83;
             // 
             // tbMenuTop

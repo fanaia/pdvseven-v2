@@ -28,7 +28,7 @@ namespace a7D.PDV.Caixa.UI
             public Control Focus { get; set; }
         }
 
-        public enum EstadoDelivery
+        private enum EstadoDelivery
         {
             NaoConfirmado,
             Novo,
@@ -41,7 +41,7 @@ namespace a7D.PDV.Caixa.UI
 
         #region Variáveis
 
-        public PedidoInformation Pedido1 { get; set; }
+        private PedidoInformation Pedido1 { get; set; }
         private OrcamentoResponse loggiOrcamento = null;
         private Task loggiTask = null;
         private List<TaxaEntregaInformation> TaxasEntrega { get; set; }
@@ -60,8 +60,10 @@ namespace a7D.PDV.Caixa.UI
         public bool AdicionarProdutos { get; set; }
         private EstadoDelivery _estado { get; set; }
         private bool AppDelivery;
+        private bool Retirada { get; set; }
 
         private IFormatProvider _provider = new CultureInfo("pt-BR");
+
         #region Calculados
 
         private Controles.PedidoProduto controlePedidoProduto => pedidoProduto1;
@@ -69,7 +71,6 @@ namespace a7D.PDV.Caixa.UI
         private decimal ValorServico => ckbTaxaServico.Checked ? TotalProdutos * (TaxaServico / 100) : 0;
         private decimal TotalEntrega => TotalProdutos + (AppDelivery ? (Pedido1.ValorEntrega ?? 0) : (Pedido1.TaxaEntrega != null ? (Pedido1.TaxaEntrega.Valor ?? 0) : 0));
         private decimal ValorPago => Pedido1.ListaPagamento.Where(p => p.Status != StatusModel.Excluido).Sum(p => p.Valor.Value);
-
 
         #endregion
 
@@ -93,7 +94,7 @@ namespace a7D.PDV.Caixa.UI
             return new frmNovoDelivery(guidIdentificacao, EstadoDelivery.Identificar);
         }
 
-        public frmNovoDelivery()
+        private frmNovoDelivery()
         {
             InitializeComponent();
             controlePedidoProduto.TipoPedidoSelecionado = ETipoPedido.Delivery;
@@ -102,28 +103,29 @@ namespace a7D.PDV.Caixa.UI
         private frmNovoDelivery(bool retirada, bool novo) : this()
         {
             Pedido1 = Pedido.NovoPedidoDelivery(frmPrincipal.Caixa1);
-            Pedido1.Retirada = retirada;
             _estado = EstadoDelivery.Novo;
             AppDelivery = false;
+            Retirada = retirada;
 
-            if (retirada)
+            if (Retirada)
                 AjusteEtapasRetirada();
         }
 
         private void AjusteEtapasRetirada()
         {
             rb3.Visible = false;
-            rb4.Visible = false;
             rb5.Visible = false;
 
-            rb6.Location = rb3.Location;
+            rb6.Location = rb4.Location;
+            rb4.Location = rb3.Location;
 
-            rb8.Image = rb5.Image;
-            rb7.Image = rb4.Image;
-            rb6.Image = rb3.Image;
+            rb8.Image = rb6.Image;
+            rb7.Image = rb5.Image;
+            rb6.Image = rb4.Image;
+            rb4.Image = rb3.Image;
         }
 
-        public frmNovoDelivery(string guidIdentificacao, EstadoDelivery estado) : this()
+        private frmNovoDelivery(string guidIdentificacao, EstadoDelivery estado) : this()
         {
             Pedido1 = Pedido.CarregarUltimoPedido(guidIdentificacao);
             // Pedido1.ListaPagamento = BLL.PedidoPagamento.ListarNaoCanceladoPorPedido(Pedido1.IDPedido.Value);
@@ -256,71 +258,6 @@ namespace a7D.PDV.Caixa.UI
                     {
                         rb4.Enabled = true;
                         rb4.Checked = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Selecione os produtos antes de continuar", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            };
-
-            controlePedidoProduto.EncerrarRetirada = () =>
-            {
-                if (controlePedidoProduto.ListaPedidoProduto.Count > 0)
-                {
-                    if (dgvTaxaEntrega.DataSource != null)
-                    {
-                        rb6.Enabled = true;
-                        rb6.Checked = true;
-                    }
-                    else
-                    {
-                        rb8.Enabled = true;
-                        rb8.Checked = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Selecione os produtos antes de continuar", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            };
-
-            controlePedidoProduto.ResumoCompletar = () =>
-            {
-                if (controlePedidoProduto.ListaPedidoProduto.Count > 0)
-                {
-                    if (dgvTaxaEntrega.DataSource != null)
-                    {
-                        rb2.Enabled = true;
-                        rb2.Checked = true;
-                    }
-                    else
-                    {
-                        rb6.Enabled = true;
-                        rb6.Checked = true;
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Selecione os produtos antes de continuar", "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            };
-
-
-
-            controlePedidoProduto.Pagamento = () =>
-            {
-                if (controlePedidoProduto.ListaPedidoProduto.Count > 0)
-                {
-                    if (dgvTaxaEntrega.DataSource != null)
-                    {
-                        rb2.Enabled = true;
-                        rb2.Checked = true;
-                    }
-                    else
-                    {
-                        rb5.Enabled = true;
-                        rb5.Checked = true;
                     }
                 }
                 else
@@ -632,11 +569,7 @@ namespace a7D.PDV.Caixa.UI
                 txtNomeCompleto.Text, txtEndereco.Text + txtEnderecoNumero, txtComplemento.Text, txtBairro.Text, txtCidade.Text,
                 txtDocumento1.Text, null, null, true);
 
-<<<<<<< Updated upstream
             if (Retirada == false)
-=======
-            if (Pedido1.Retirada == false)
->>>>>>> Stashed changes
             {
                 if (enderecoVazio && numeroVazio)
                     msg += "Informe o endereço completo da entrega\n";
@@ -992,7 +925,6 @@ namespace a7D.PDV.Caixa.UI
 
         private void btnCriarPedido_Click(object sender, EventArgs e)
         {
-           
             try
             {
                 if (Validar())
@@ -1005,10 +937,6 @@ namespace a7D.PDV.Caixa.UI
                             OrdemProducaoServices.GerarViaExpedicao(Pedido1.IDPedido.Value, ConfiguracoesSistema.Valores.IDAreaViaExpedicao);
 
                         Close();
-                    }
-                    else if (Pedido1.Retirada == true)
-                    {
-                       
                     }
                     else
                     {
@@ -1361,15 +1289,9 @@ namespace a7D.PDV.Caixa.UI
             if (_estado == EstadoDelivery.NaoConfirmado)
                 btnCriarPedido.Text = "CONFIRMAR PEDIDO";
             if (_estado == EstadoDelivery.Novo)
-            {
                 btnCriarPedido.Text = "CRIAR PEDIDO";
-               
-            }
             else if (_estado == EstadoDelivery.Edicao)
-            {
                 btnCriarPedido.Text = "EDITAR PEDIDO";
-               
-            }
             else
                 btnCriarPedido.Text = "CONFIRMAR";
 
@@ -1773,11 +1695,6 @@ Destino:
 
             #endregion
 
-            if ((bool)Pedido1.Retirada)
-            {
-                return true;
-            }
-
             if (!string.IsNullOrWhiteSpace(msg))
             {
                 MessageBox.Show(msg, "Atenção", MessageBoxButtons.OK, MessageBoxIcon.Error);
@@ -1905,7 +1822,6 @@ Destino:
                 Pedido1.StatusPedido.StatusPedido = EStatusPedido.Aberto;
 
             Pedido.Salvar(Pedido1);
-            
             var pedidoAlterado = false;
 
             foreach (var alterado in controlePedidoProduto.ListaPedidoProduto.Where(pp => pp.Status == StatusModel.Alterado))
@@ -1999,7 +1915,6 @@ Destino:
             }
 
             Pedido1 = Pedido.CarregarCompleto(Pedido1.IDPedido.Value);
-            
             //Pedido1.ListaPagamento = PedidoPagamento.ListarNaoCanceladoPorPedido(Pedido1.IDPedido.Value);
             //Pedido1.ListaProduto = controlePedidoProduto.ListaPedidoProduto.Where(pp => pp.Status != StatusModel.Excluido).ToList();
         }

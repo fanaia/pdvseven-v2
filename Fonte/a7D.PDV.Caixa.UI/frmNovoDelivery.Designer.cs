@@ -30,49 +30,47 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmNovoDelivery));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle70 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle71 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle72 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle73 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle74 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle75 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle76 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle79 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle80 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle77 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle78 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle81 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle82 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle84 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle85 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle83 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle86 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle87 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle88 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle89 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle90 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle91 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle92 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle26 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.rb1 = new System.Windows.Forms.RadioButton();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.rb2 = new System.Windows.Forms.RadioButton();
-            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
-            this.rb3 = new System.Windows.Forms.RadioButton();
-            this.imageList3 = new System.Windows.Forms.ImageList(this.components);
-            this.rb4 = new System.Windows.Forms.RadioButton();
-            this.imageList4 = new System.Windows.Forms.ImageList(this.components);
-            this.rb5 = new System.Windows.Forms.RadioButton();
-            this.imageList5 = new System.Windows.Forms.ImageList(this.components);
             this.rb6 = new System.Windows.Forms.RadioButton();
             this.imageList6 = new System.Windows.Forms.ImageList(this.components);
             this.rb7 = new System.Windows.Forms.RadioButton();
             this.imageList7 = new System.Windows.Forms.ImageList(this.components);
+            this.rb4 = new System.Windows.Forms.RadioButton();
+            this.imageList4 = new System.Windows.Forms.ImageList(this.components);
             this.rb8 = new System.Windows.Forms.RadioButton();
             this.imageList8 = new System.Windows.Forms.ImageList(this.components);
+            this.rb2 = new System.Windows.Forms.RadioButton();
+            this.imageList2 = new System.Windows.Forms.ImageList(this.components);
+            this.rb3 = new System.Windows.Forms.RadioButton();
+            this.imageList3 = new System.Windows.Forms.ImageList(this.components);
+            this.imageList5 = new System.Windows.Forms.ImageList(this.components);
+            this.rb1 = new System.Windows.Forms.RadioButton();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.gb2 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.pedidoProduto1 = new a7D.PDV.Caixa.UI.Controles.PedidoProduto();
             this.dataGridViewImageColumn2 = new System.Windows.Forms.DataGridViewImageColumn();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.label3 = new System.Windows.Forms.Label();
@@ -231,6 +229,8 @@
             this.lblFinalizarTelefone = new System.Windows.Forms.Label();
             this.lblFinalizarNome = new System.Windows.Forms.Label();
             this.lnkVoltar = new System.Windows.Forms.LinkLabel();
+            this.rb5 = new System.Windows.Forms.RadioButton();
+            this.pedidoProduto1 = new a7D.PDV.Caixa.UI.Controles.PedidoProduto();
             this.groupBox1.SuspendLayout();
             this.gb2.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
@@ -277,178 +277,20 @@
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox1.Controls.Add(this.rb1);
-            this.groupBox1.Controls.Add(this.rb2);
-            this.groupBox1.Controls.Add(this.rb3);
-            this.groupBox1.Controls.Add(this.rb4);
-            this.groupBox1.Controls.Add(this.rb5);
             this.groupBox1.Controls.Add(this.rb6);
+            this.groupBox1.Controls.Add(this.rb5);
+            this.groupBox1.Controls.Add(this.rb4);
+            this.groupBox1.Controls.Add(this.rb3);
             this.groupBox1.Controls.Add(this.rb7);
             this.groupBox1.Controls.Add(this.rb8);
+            this.groupBox1.Controls.Add(this.rb2);
+            this.groupBox1.Controls.Add(this.rb1);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Location = new System.Drawing.Point(12, 58);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(981, 102);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            // 
-            // rb1
-            // 
-            this.rb1.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rb1.BackColor = System.Drawing.Color.Transparent;
-            this.rb1.Checked = true;
-            this.rb1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rb1.FlatAppearance.BorderSize = 0;
-            this.rb1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.rb1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.rb1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.rb1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rb1.ImageIndex = 0;
-            this.rb1.ImageList = this.imageList1;
-            this.rb1.Location = new System.Drawing.Point(3, 21);
-            this.rb1.MinimumSize = new System.Drawing.Size(104, 58);
-            this.rb1.Name = "rb1";
-            this.rb1.Size = new System.Drawing.Size(110, 78);
-            this.rb1.TabIndex = 0;
-            this.rb1.TabStop = true;
-            this.rb1.Text = "Cliente";
-            this.rb1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rb1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rb1.UseMnemonic = false;
-            this.rb1.UseVisualStyleBackColor = true;
-            this.rb1.CheckedChanged += new System.EventHandler(this.CheckedChanged);
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "circulo1.png");
-            this.imageList1.Images.SetKeyName(1, "circulo1-s.png");
-            this.imageList1.Images.SetKeyName(2, "circulo1-v.png");
-            // 
-            // rb2
-            // 
-            this.rb2.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rb2.BackColor = System.Drawing.Color.Transparent;
-            this.rb2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rb2.Enabled = false;
-            this.rb2.FlatAppearance.BorderSize = 0;
-            this.rb2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.rb2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.rb2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.rb2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rb2.ImageIndex = 0;
-            this.rb2.ImageList = this.imageList2;
-            this.rb2.Location = new System.Drawing.Point(113, 21);
-            this.rb2.Name = "rb2";
-            this.rb2.Size = new System.Drawing.Size(110, 78);
-            this.rb2.TabIndex = 3;
-            this.rb2.Text = "Produtos";
-            this.rb2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rb2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rb2.UseVisualStyleBackColor = false;
-            this.rb2.CheckedChanged += new System.EventHandler(this.CheckedChanged);
-            // 
-            // imageList2
-            // 
-            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
-            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList2.Images.SetKeyName(0, "circulo2.png");
-            this.imageList2.Images.SetKeyName(1, "circulo2-s.png");
-            this.imageList2.Images.SetKeyName(2, "circulo2-v.png");
-            // 
-            // rb3
-            // 
-            this.rb3.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rb3.BackColor = System.Drawing.Color.Transparent;
-            this.rb3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rb3.Enabled = false;
-            this.rb3.FlatAppearance.BorderSize = 0;
-            this.rb3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.rb3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.rb3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.rb3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rb3.ImageIndex = 0;
-            this.rb3.ImageList = this.imageList3;
-            this.rb3.Location = new System.Drawing.Point(223, 21);
-            this.rb3.Name = "rb3";
-            this.rb3.Size = new System.Drawing.Size(110, 78);
-            this.rb3.TabIndex = 2;
-            this.rb3.Text = "Taxa Entrega\r\n";
-            this.rb3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rb3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rb3.UseVisualStyleBackColor = false;
-            this.rb3.CheckedChanged += new System.EventHandler(this.CheckedChanged);
-            // 
-            // imageList3
-            // 
-            this.imageList3.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList3.ImageStream")));
-            this.imageList3.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList3.Images.SetKeyName(0, "circulo3.png");
-            this.imageList3.Images.SetKeyName(1, "circulo3-s.png");
-            this.imageList3.Images.SetKeyName(2, "circulo3-v.png");
-            // 
-            // rb4
-            // 
-            this.rb4.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rb4.BackColor = System.Drawing.Color.Transparent;
-            this.rb4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rb4.Enabled = false;
-            this.rb4.FlatAppearance.BorderSize = 0;
-            this.rb4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.rb4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.rb4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.rb4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rb4.ImageIndex = 0;
-            this.rb4.ImageList = this.imageList4;
-            this.rb4.Location = new System.Drawing.Point(333, 21);
-            this.rb4.Name = "rb4";
-            this.rb4.Size = new System.Drawing.Size(110, 78);
-            this.rb4.TabIndex = 5;
-            this.rb4.Text = "Confirmação";
-            this.rb4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rb4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rb4.UseVisualStyleBackColor = false;
-            this.rb4.CheckedChanged += new System.EventHandler(this.CheckedChanged);
-            // 
-            // imageList4
-            // 
-            this.imageList4.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList4.ImageStream")));
-            this.imageList4.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList4.Images.SetKeyName(0, "circulo4.png");
-            this.imageList4.Images.SetKeyName(1, "circulo4-s.png");
-            this.imageList4.Images.SetKeyName(2, "circulo4-v.png");
-            // 
-            // rb5
-            // 
-            this.rb5.Appearance = System.Windows.Forms.Appearance.Button;
-            this.rb5.BackColor = System.Drawing.Color.Transparent;
-            this.rb5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.rb5.Enabled = false;
-            this.rb5.FlatAppearance.BorderSize = 0;
-            this.rb5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
-            this.rb5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.rb5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.rb5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.rb5.ImageIndex = 0;
-            this.rb5.ImageList = this.imageList5;
-            this.rb5.Location = new System.Drawing.Point(443, 21);
-            this.rb5.Name = "rb5";
-            this.rb5.Size = new System.Drawing.Size(110, 78);
-            this.rb5.TabIndex = 1;
-            this.rb5.Text = "Pagamento";
-            this.rb5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.rb5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.rb5.UseVisualStyleBackColor = false;
-            this.rb5.CheckedChanged += new System.EventHandler(this.CheckedChanged);
-            // 
-            // imageList5
-            // 
-            this.imageList5.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList5.ImageStream")));
-            this.imageList5.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList5.Images.SetKeyName(0, "circulo5.png");
-            this.imageList5.Images.SetKeyName(1, "circulo5-s.png");
-            this.imageList5.Images.SetKeyName(2, "circulo5-v.png");
             // 
             // rb6
             // 
@@ -513,6 +355,37 @@
             this.imageList7.Images.SetKeyName(1, "circulo7-s.png");
             this.imageList7.Images.SetKeyName(2, "circulo7-v.png");
             // 
+            // rb4
+            // 
+            this.rb4.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rb4.BackColor = System.Drawing.Color.Transparent;
+            this.rb4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rb4.Enabled = false;
+            this.rb4.FlatAppearance.BorderSize = 0;
+            this.rb4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.rb4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rb4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rb4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rb4.ImageIndex = 0;
+            this.rb4.ImageList = this.imageList4;
+            this.rb4.Location = new System.Drawing.Point(333, 21);
+            this.rb4.Name = "rb4";
+            this.rb4.Size = new System.Drawing.Size(110, 78);
+            this.rb4.TabIndex = 5;
+            this.rb4.Text = "Confirmação";
+            this.rb4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rb4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rb4.UseVisualStyleBackColor = false;
+            this.rb4.CheckedChanged += new System.EventHandler(this.CheckedChanged);
+            // 
+            // imageList4
+            // 
+            this.imageList4.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList4.ImageStream")));
+            this.imageList4.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList4.Images.SetKeyName(0, "circulo4.png");
+            this.imageList4.Images.SetKeyName(1, "circulo4-s.png");
+            this.imageList4.Images.SetKeyName(2, "circulo4-v.png");
+            // 
             // rb8
             // 
             this.rb8.Appearance = System.Windows.Forms.Appearance.Button;
@@ -545,6 +418,110 @@
             this.imageList8.Images.SetKeyName(1, "circulo8-s.png");
             this.imageList8.Images.SetKeyName(2, "circulo8-v.png");
             // 
+            // rb2
+            // 
+            this.rb2.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rb2.BackColor = System.Drawing.Color.Transparent;
+            this.rb2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rb2.Enabled = false;
+            this.rb2.FlatAppearance.BorderSize = 0;
+            this.rb2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.rb2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rb2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rb2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rb2.ImageIndex = 0;
+            this.rb2.ImageList = this.imageList2;
+            this.rb2.Location = new System.Drawing.Point(113, 21);
+            this.rb2.Name = "rb2";
+            this.rb2.Size = new System.Drawing.Size(110, 78);
+            this.rb2.TabIndex = 3;
+            this.rb2.Text = "Produtos";
+            this.rb2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rb2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rb2.UseVisualStyleBackColor = false;
+            this.rb2.CheckedChanged += new System.EventHandler(this.CheckedChanged);
+            // 
+            // imageList2
+            // 
+            this.imageList2.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList2.ImageStream")));
+            this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList2.Images.SetKeyName(0, "circulo2.png");
+            this.imageList2.Images.SetKeyName(1, "circulo2-s.png");
+            this.imageList2.Images.SetKeyName(2, "circulo2-v.png");
+            // 
+            // rb3
+            // 
+            this.rb3.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rb3.BackColor = System.Drawing.Color.Transparent;
+            this.rb3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rb3.Enabled = false;
+            this.rb3.FlatAppearance.BorderSize = 0;
+            this.rb3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.rb3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rb3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rb3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rb3.ImageIndex = 0;
+            this.rb3.ImageList = this.imageList3;
+            this.rb3.Location = new System.Drawing.Point(223, 21);
+            this.rb3.Name = "rb3";
+            this.rb3.Size = new System.Drawing.Size(110, 78);
+            this.rb3.TabIndex = 2;
+            this.rb3.Text = "Taxa Entrega\r\n";
+            this.rb3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rb3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rb3.UseVisualStyleBackColor = false;
+            this.rb3.CheckedChanged += new System.EventHandler(this.CheckedChanged);
+            // 
+            // imageList3
+            // 
+            this.imageList3.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList3.ImageStream")));
+            this.imageList3.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList3.Images.SetKeyName(0, "circulo3.png");
+            this.imageList3.Images.SetKeyName(1, "circulo3-s.png");
+            this.imageList3.Images.SetKeyName(2, "circulo3-v.png");
+            // 
+            // imageList5
+            // 
+            this.imageList5.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList5.ImageStream")));
+            this.imageList5.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList5.Images.SetKeyName(0, "circulo5.png");
+            this.imageList5.Images.SetKeyName(1, "circulo5-s.png");
+            this.imageList5.Images.SetKeyName(2, "circulo5-v.png");
+            // 
+            // rb1
+            // 
+            this.rb1.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rb1.BackColor = System.Drawing.Color.Transparent;
+            this.rb1.Checked = true;
+            this.rb1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rb1.FlatAppearance.BorderSize = 0;
+            this.rb1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.rb1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rb1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rb1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rb1.ImageIndex = 0;
+            this.rb1.ImageList = this.imageList1;
+            this.rb1.Location = new System.Drawing.Point(3, 21);
+            this.rb1.MinimumSize = new System.Drawing.Size(104, 58);
+            this.rb1.Name = "rb1";
+            this.rb1.Size = new System.Drawing.Size(110, 78);
+            this.rb1.TabIndex = 0;
+            this.rb1.TabStop = true;
+            this.rb1.Text = "Cliente";
+            this.rb1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rb1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rb1.UseMnemonic = false;
+            this.rb1.UseVisualStyleBackColor = true;
+            this.rb1.CheckedChanged += new System.EventHandler(this.CheckedChanged);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "circulo1.png");
+            this.imageList1.Images.SetKeyName(1, "circulo1-s.png");
+            this.imageList1.Images.SetKeyName(2, "circulo1-v.png");
+            // 
             // gb2
             // 
             this.gb2.Controls.Add(this.tableLayoutPanel1);
@@ -570,28 +547,6 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(969, 485);
             this.tableLayoutPanel1.TabIndex = 1;
-            // 
-            // pedidoProduto1
-            // 
-            this.pedidoProduto1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.pedidoProduto1.BackColor = System.Drawing.Color.White;
-            this.pedidoProduto1.Cancelar = false;
-            this.pedidoProduto1.Confirmar = null;
-            this.pedidoProduto1.DescontoAplicado = null;
-            this.pedidoProduto1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pedidoProduto1.Fechar = null;
-            this.pedidoProduto1.ListaPedidoProduto = null;
-            this.pedidoProduto1.Location = new System.Drawing.Point(2, 2);
-            this.pedidoProduto1.Margin = new System.Windows.Forms.Padding(2);
-            this.pedidoProduto1.ModificacaoAlterada = null;
-            this.pedidoProduto1.Name = "pedidoProduto1";
-            this.pedidoProduto1.Pagamento = null;
-            this.pedidoProduto1.PermitirDesconto = true;
-            this.pedidoProduto1.ProdutoAdicionado = null;
-            this.pedidoProduto1.ProdutoRemovido = null;
-            this.pedidoProduto1.ResumoCompletar = null;
-            this.pedidoProduto1.Size = new System.Drawing.Size(965, 481);
-            this.pedidoProduto1.TabIndex = 0;
             // 
             // dataGridViewImageColumn2
             // 
@@ -1125,8 +1080,8 @@
             this.dgvTaxaEntrega.AllowUserToDeleteRows = false;
             this.dgvTaxaEntrega.AllowUserToResizeColumns = false;
             this.dgvTaxaEntrega.AllowUserToResizeRows = false;
-            dataGridViewCellStyle70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.dgvTaxaEntrega.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle70;
+            dataGridViewCellStyle24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
+            this.dgvTaxaEntrega.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle24;
             this.dgvTaxaEntrega.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -1136,45 +1091,45 @@
             this.dgvTaxaEntrega.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgvTaxaEntrega.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             this.dgvTaxaEntrega.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle71.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(193)))), ((int)(((byte)(207)))));
-            dataGridViewCellStyle71.Font = new System.Drawing.Font("Arial", 11.25F);
-            dataGridViewCellStyle71.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle71.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle71.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle71.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle71.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTaxaEntrega.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle71;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(193)))), ((int)(((byte)(207)))));
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Arial", 11.25F);
+            dataGridViewCellStyle25.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle25.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTaxaEntrega.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
             this.dgvTaxaEntrega.ColumnHeadersHeight = 40;
             this.dgvTaxaEntrega.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.colID,
             this.colNome,
             this.colValor});
-            dataGridViewCellStyle72.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle72.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle72.Font = new System.Drawing.Font("Arial", 11.25F);
-            dataGridViewCellStyle72.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle72.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle72.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle72.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle72.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvTaxaEntrega.DefaultCellStyle = dataGridViewCellStyle72;
+            dataGridViewCellStyle26.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle26.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle26.Font = new System.Drawing.Font("Arial", 11.25F);
+            dataGridViewCellStyle26.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle26.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle26.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle26.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle26.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvTaxaEntrega.DefaultCellStyle = dataGridViewCellStyle26;
             this.dgvTaxaEntrega.EnableHeadersVisualStyles = false;
             this.dgvTaxaEntrega.Location = new System.Drawing.Point(165, 75);
             this.dgvTaxaEntrega.Name = "dgvTaxaEntrega";
             this.dgvTaxaEntrega.ReadOnly = true;
             this.dgvTaxaEntrega.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle73.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle73.Font = new System.Drawing.Font("Arial", 11.25F);
-            dataGridViewCellStyle73.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle73.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle73.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle73.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvTaxaEntrega.RowHeadersDefaultCellStyle = dataGridViewCellStyle73;
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle27.Font = new System.Drawing.Font("Arial", 11.25F);
+            dataGridViewCellStyle27.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle27.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle27.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle27.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvTaxaEntrega.RowHeadersDefaultCellStyle = dataGridViewCellStyle27;
             this.dgvTaxaEntrega.RowHeadersVisible = false;
-            dataGridViewCellStyle74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(231)))), ((int)(((byte)(234)))));
-            dataGridViewCellStyle74.Padding = new System.Windows.Forms.Padding(5);
-            this.dgvTaxaEntrega.RowsDefaultCellStyle = dataGridViewCellStyle74;
+            dataGridViewCellStyle28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(231)))), ((int)(((byte)(234)))));
+            dataGridViewCellStyle28.Padding = new System.Windows.Forms.Padding(5);
+            this.dgvTaxaEntrega.RowsDefaultCellStyle = dataGridViewCellStyle28;
             this.dgvTaxaEntrega.RowTemplate.DividerHeight = 1;
             this.dgvTaxaEntrega.RowTemplate.Height = 36;
             this.dgvTaxaEntrega.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -1385,43 +1340,43 @@
             // 
             this.dgvProdutosPagamento.AllowUserToAddRows = false;
             this.dgvProdutosPagamento.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.dgvProdutosPagamento.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle75;
+            dataGridViewCellStyle29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
+            this.dgvProdutosPagamento.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle29;
             this.dgvProdutosPagamento.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvProdutosPagamento.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.dgvProdutosPagamento.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvProdutosPagamento.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgvProdutosPagamento.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle76.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(193)))), ((int)(((byte)(207)))));
-            dataGridViewCellStyle76.Font = new System.Drawing.Font("Arial", 11.25F);
-            dataGridViewCellStyle76.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle76.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle76.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle76.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle76.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvProdutosPagamento.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle76;
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(193)))), ((int)(((byte)(207)))));
+            dataGridViewCellStyle30.Font = new System.Drawing.Font("Arial", 11.25F);
+            dataGridViewCellStyle30.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle30.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle30.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle30.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle30.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvProdutosPagamento.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle30;
             this.dgvProdutosPagamento.ColumnHeadersHeight = 40;
             this.dgvProdutosPagamento.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.descricao,
             this.valorUnitario});
-            dataGridViewCellStyle79.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle79.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle79.Font = new System.Drawing.Font("Arial", 11.25F);
-            dataGridViewCellStyle79.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle79.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle79.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle79.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle79.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvProdutosPagamento.DefaultCellStyle = dataGridViewCellStyle79;
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle33.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle33.Font = new System.Drawing.Font("Arial", 11.25F);
+            dataGridViewCellStyle33.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle33.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvProdutosPagamento.DefaultCellStyle = dataGridViewCellStyle33;
             this.dgvProdutosPagamento.EnableHeadersVisualStyles = false;
             this.dgvProdutosPagamento.Location = new System.Drawing.Point(640, 14);
             this.dgvProdutosPagamento.Name = "dgvProdutosPagamento";
             this.dgvProdutosPagamento.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvProdutosPagamento.RowHeadersVisible = false;
-            dataGridViewCellStyle80.Padding = new System.Windows.Forms.Padding(5);
-            this.dgvProdutosPagamento.RowsDefaultCellStyle = dataGridViewCellStyle80;
+            dataGridViewCellStyle34.Padding = new System.Windows.Forms.Padding(5);
+            this.dgvProdutosPagamento.RowsDefaultCellStyle = dataGridViewCellStyle34;
             this.dgvProdutosPagamento.RowTemplate.Height = 35;
             this.dgvProdutosPagamento.RowTemplate.ReadOnly = true;
             this.dgvProdutosPagamento.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.False;
@@ -1435,8 +1390,8 @@
             // 
             this.descricao.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.descricao.DataPropertyName = "nome";
-            dataGridViewCellStyle77.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.descricao.DefaultCellStyle = dataGridViewCellStyle77;
+            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.descricao.DefaultCellStyle = dataGridViewCellStyle31;
             this.descricao.HeaderText = "Descrição";
             this.descricao.Name = "descricao";
             // 
@@ -1444,8 +1399,8 @@
             // 
             this.valorUnitario.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
             this.valorUnitario.DataPropertyName = "valorUnitario";
-            dataGridViewCellStyle78.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.valorUnitario.DefaultCellStyle = dataGridViewCellStyle78;
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.valorUnitario.DefaultCellStyle = dataGridViewCellStyle32;
             this.valorUnitario.HeaderText = "Vlr Unt.";
             this.valorUnitario.Name = "valorUnitario";
             this.valorUnitario.Width = 88;
@@ -1469,44 +1424,44 @@
             // 
             this.dgvPagamentos.AllowUserToAddRows = false;
             this.dgvPagamentos.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.dgvPagamentos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle81;
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
+            this.dgvPagamentos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle35;
             this.dgvPagamentos.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dgvPagamentos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(237)))), ((int)(((byte)(237)))));
             this.dgvPagamentos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvPagamentos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgvPagamentos.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle82.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(193)))), ((int)(((byte)(207)))));
-            dataGridViewCellStyle82.Font = new System.Drawing.Font("Arial", 11.25F);
-            dataGridViewCellStyle82.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle82.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle82.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle82.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle82.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvPagamentos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle82;
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(193)))), ((int)(((byte)(207)))));
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Arial", 11.25F);
+            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle36.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPagamentos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle36;
             this.dgvPagamentos.ColumnHeadersHeight = 40;
             this.dgvPagamentos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Remover,
             this.TipoPagamento,
             this.Valor});
-            dataGridViewCellStyle84.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle84.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle84.Font = new System.Drawing.Font("Arial", 11.25F);
-            dataGridViewCellStyle84.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle84.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle84.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle84.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle84.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvPagamentos.DefaultCellStyle = dataGridViewCellStyle84;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Arial", 11.25F);
+            dataGridViewCellStyle38.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle38.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvPagamentos.DefaultCellStyle = dataGridViewCellStyle38;
             this.dgvPagamentos.EnableHeadersVisualStyles = false;
             this.dgvPagamentos.Location = new System.Drawing.Point(5, 156);
             this.dgvPagamentos.MultiSelect = false;
             this.dgvPagamentos.Name = "dgvPagamentos";
             this.dgvPagamentos.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgvPagamentos.RowHeadersVisible = false;
-            dataGridViewCellStyle85.Padding = new System.Windows.Forms.Padding(5);
-            this.dgvPagamentos.RowsDefaultCellStyle = dataGridViewCellStyle85;
+            dataGridViewCellStyle39.Padding = new System.Windows.Forms.Padding(5);
+            this.dgvPagamentos.RowsDefaultCellStyle = dataGridViewCellStyle39;
             this.dgvPagamentos.RowTemplate.DefaultCellStyle.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvPagamentos.RowTemplate.Height = 35;
             this.dgvPagamentos.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -1532,9 +1487,9 @@
             // Valor
             // 
             this.Valor.DataPropertyName = "Valor";
-            dataGridViewCellStyle83.Format = "C2";
-            dataGridViewCellStyle83.NullValue = null;
-            this.Valor.DefaultCellStyle = dataGridViewCellStyle83;
+            dataGridViewCellStyle37.Format = "C2";
+            dataGridViewCellStyle37.NullValue = null;
+            this.Valor.DefaultCellStyle = dataGridViewCellStyle37;
             this.Valor.HeaderText = "Valor Pago";
             this.Valor.Name = "Valor";
             // 
@@ -1790,7 +1745,7 @@
             this.gb6.Size = new System.Drawing.Size(981, 517);
             this.gb6.TabIndex = 68;
             this.gb6.TabStop = false;
-            this.gb6.Text = "Resumo e Completar";
+            this.gb6.Text = "Resumo";
             this.gb6.Visible = false;
             // 
             // btnCriarPedido
@@ -1912,9 +1867,9 @@
             // 
             this.colResumoValor.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.colResumoValor.DataPropertyName = "Valor";
-            dataGridViewCellStyle86.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle86.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.colResumoValor.DefaultCellStyle = dataGridViewCellStyle86;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.colResumoValor.DefaultCellStyle = dataGridViewCellStyle40;
             this.colResumoValor.HeaderText = "Valor";
             this.colResumoValor.Name = "colResumoValor";
             this.colResumoValor.ReadOnly = true;
@@ -2417,8 +2372,8 @@
             this.dgvEntregador.AllowUserToDeleteRows = false;
             this.dgvEntregador.AllowUserToResizeColumns = false;
             this.dgvEntregador.AllowUserToResizeRows = false;
-            dataGridViewCellStyle87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.dgvEntregador.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle87;
+            dataGridViewCellStyle41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
+            this.dgvEntregador.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle41;
             this.dgvEntregador.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -2428,44 +2383,44 @@
             this.dgvEntregador.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgvEntregador.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             this.dgvEntregador.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle88.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(193)))), ((int)(((byte)(207)))));
-            dataGridViewCellStyle88.Font = new System.Drawing.Font("Arial", 11.25F);
-            dataGridViewCellStyle88.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle88.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle88.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle88.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle88.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEntregador.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle88;
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(193)))), ((int)(((byte)(207)))));
+            dataGridViewCellStyle42.Font = new System.Drawing.Font("Arial", 11.25F);
+            dataGridViewCellStyle42.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle42.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEntregador.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle42;
             this.dgvEntregador.ColumnHeadersHeight = 40;
             this.dgvEntregador.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.cellIDEntregador,
             this.dataGridViewTextBoxColumn6});
-            dataGridViewCellStyle89.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle89.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle89.Font = new System.Drawing.Font("Arial", 11.25F);
-            dataGridViewCellStyle89.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle89.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle89.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle89.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle89.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEntregador.DefaultCellStyle = dataGridViewCellStyle89;
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle43.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Arial", 11.25F);
+            dataGridViewCellStyle43.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle43.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEntregador.DefaultCellStyle = dataGridViewCellStyle43;
             this.dgvEntregador.EnableHeadersVisualStyles = false;
             this.dgvEntregador.Location = new System.Drawing.Point(165, 90);
             this.dgvEntregador.Name = "dgvEntregador";
             this.dgvEntregador.ReadOnly = true;
             this.dgvEntregador.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle90.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle90.Font = new System.Drawing.Font("Arial", 11.25F);
-            dataGridViewCellStyle90.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle90.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle90.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle90.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEntregador.RowHeadersDefaultCellStyle = dataGridViewCellStyle90;
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Arial", 11.25F);
+            dataGridViewCellStyle44.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEntregador.RowHeadersDefaultCellStyle = dataGridViewCellStyle44;
             this.dgvEntregador.RowHeadersVisible = false;
-            dataGridViewCellStyle91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(231)))), ((int)(((byte)(234)))));
-            dataGridViewCellStyle91.Padding = new System.Windows.Forms.Padding(5);
-            this.dgvEntregador.RowsDefaultCellStyle = dataGridViewCellStyle91;
+            dataGridViewCellStyle45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(231)))), ((int)(((byte)(234)))));
+            dataGridViewCellStyle45.Padding = new System.Windows.Forms.Padding(5);
+            this.dgvEntregador.RowsDefaultCellStyle = dataGridViewCellStyle45;
             this.dgvEntregador.RowTemplate.DividerHeight = 1;
             this.dgvEntregador.RowTemplate.Height = 36;
             this.dgvEntregador.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -2647,9 +2602,9 @@
             // 
             this.dataGridViewTextBoxColumn101.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
             this.dataGridViewTextBoxColumn101.DataPropertyName = "Valor";
-            dataGridViewCellStyle92.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle92.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewTextBoxColumn101.DefaultCellStyle = dataGridViewCellStyle92;
+            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewTextBoxColumn101.DefaultCellStyle = dataGridViewCellStyle46;
             this.dataGridViewTextBoxColumn101.HeaderText = "Valor";
             this.dataGridViewTextBoxColumn101.Name = "dataGridViewTextBoxColumn101";
             this.dataGridViewTextBoxColumn101.ReadOnly = true;
@@ -2837,6 +2792,49 @@
             this.lnkVoltar.VisitedLinkColor = System.Drawing.Color.Blue;
             this.lnkVoltar.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkVoltar_LinkClicked);
             // 
+            // rb5
+            // 
+            this.rb5.Appearance = System.Windows.Forms.Appearance.Button;
+            this.rb5.BackColor = System.Drawing.Color.Transparent;
+            this.rb5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rb5.Enabled = false;
+            this.rb5.FlatAppearance.BorderSize = 0;
+            this.rb5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent;
+            this.rb5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.rb5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.rb5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.rb5.ImageIndex = 0;
+            this.rb5.ImageList = this.imageList5;
+            this.rb5.Location = new System.Drawing.Point(443, 21);
+            this.rb5.Name = "rb5";
+            this.rb5.Size = new System.Drawing.Size(110, 78);
+            this.rb5.TabIndex = 1;
+            this.rb5.Text = "Pagamento";
+            this.rb5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.rb5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.rb5.UseVisualStyleBackColor = false;
+            this.rb5.CheckedChanged += new System.EventHandler(this.CheckedChanged);
+            // 
+            // pedidoProduto1
+            // 
+            this.pedidoProduto1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.pedidoProduto1.BackColor = System.Drawing.Color.White;
+            this.pedidoProduto1.Cancelar = false;
+            this.pedidoProduto1.Confirmar = null;
+            this.pedidoProduto1.DescontoAplicado = null;
+            this.pedidoProduto1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pedidoProduto1.Fechar = null;
+            this.pedidoProduto1.ListaPedidoProduto = null;
+            this.pedidoProduto1.Location = new System.Drawing.Point(2, 2);
+            this.pedidoProduto1.Margin = new System.Windows.Forms.Padding(2);
+            this.pedidoProduto1.ModificacaoAlterada = null;
+            this.pedidoProduto1.Name = "pedidoProduto1";
+            this.pedidoProduto1.PermitirDesconto = true;
+            this.pedidoProduto1.ProdutoAdicionado = null;
+            this.pedidoProduto1.ProdutoRemovido = null;
+            this.pedidoProduto1.Size = new System.Drawing.Size(965, 481);
+            this.pedidoProduto1.TabIndex = 0;
+            // 
             // frmNovoDelivery
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
@@ -2849,14 +2847,14 @@
             this.Controls.Add(this.lblTotalPedido);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.gb1);
+            this.Controls.Add(this.gb6);
+            this.Controls.Add(this.gb5);
             this.Controls.Add(this.gb2);
             this.Controls.Add(this.gb3);
             this.Controls.Add(this.gb8);
             this.Controls.Add(this.gb4);
             this.Controls.Add(this.gb7);
-            this.Controls.Add(this.gb1);
-            this.Controls.Add(this.gb6);
-            this.Controls.Add(this.gb5);
             this.Font = new System.Drawing.Font("Arial", 11.25F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -2938,6 +2936,7 @@
         private System.Windows.Forms.ImageList imageList1;
         private System.Windows.Forms.RadioButton rb2;
         private System.Windows.Forms.RadioButton rb3;
+        private System.Windows.Forms.RadioButton rb8;
         private System.Windows.Forms.GroupBox gb2;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn2;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
@@ -3110,6 +3109,5 @@
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.TextBox txtReferencia;
         private System.Windows.Forms.RadioButton rb5;
-        public System.Windows.Forms.RadioButton rb8;
     }
 }

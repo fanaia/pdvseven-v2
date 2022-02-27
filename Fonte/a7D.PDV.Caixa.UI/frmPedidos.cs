@@ -26,8 +26,6 @@ namespace a7D.PDV.Caixa.UI
 
         private bool LoadComplete = false;
 
-        public Action EncerrarRetirada2 { get; set; }
-
         internal static bool _reabrirPedidos = false;
         internal static bool ReabrirPedidos
         {
@@ -52,7 +50,7 @@ namespace a7D.PDV.Caixa.UI
 
         private void frmPedidos_Load(object sender, EventArgs e)
         {
-
+            
             GA.Post(this);
             try
             {
@@ -88,7 +86,7 @@ namespace a7D.PDV.Caixa.UI
                 integracaoMenu.Visible = false;
 
             CarregarMenuTipoPedido();
-
+            
             listaPedidoMesa1.PedidoSelecionado += new Controles.ListaPedidoMesa.PedidoSelecionadoEventHandler(ListaPedidoMesa_PedidoSelecionado);
 
             listaPedidoComanda1.PedidoSelecionado += new Controles.ListaPedidoComanda.PedidoSelecionadoEventHandler(ListaPedidoComanda_PedidoSelecionado);
@@ -96,7 +94,7 @@ namespace a7D.PDV.Caixa.UI
 
             listaPedidoEntrega1.PedidoSelecionado += new Controles.ListaPedidoEntrega.PedidoSelecionadoEventHandler(ListaPedidoEntrega_PedidoSelecionado);
             listaPedidoComandaSemCheckin1.PedidoSelecionado += new Controles.ListaPedidoComandaSemCheckin.PedidoSelecionadoEventHandler(listaPedidoComandaSemCheckin_PedidoSelecionado);
-
+            
             LoadComplete = true;
         }
 
@@ -320,11 +318,11 @@ namespace a7D.PDV.Caixa.UI
 
                 if (pedido?.IDPedido != null)
                 {
-                    if (tipoPedido_selecionado == ETipoPedido.Delivery && pedido.Retirada == false)
+                    // Verificar se o pedido é Delivery e Retirada é false
+                    if (tipoPedido_selecionado == ETipoPedido.Delivery)
                     {
                         using (var frmDelivery = frmNovoDelivery.EnviarOuFinalizarPedidoDelivery(GUIDIdentificacao_selecionado))
                         {
-                            var s = GUIDIdentificacao_selecionado.First();
                             frmDelivery.ShowDialog();
                         }
                     }
@@ -336,22 +334,8 @@ namespace a7D.PDV.Caixa.UI
                             parcial = ctrl.Name == pagamentoParcialComandaToolStripMenuItem.Name ||
                                       ctrl.Name == pagamentoParcialMesaToolStripMenuItem.Name;
                         }
-                        if (string.IsNullOrEmpty(pedido.Observacoes) == true)
-                        {
-                            NormalOuTouch.FechaPagamento(pedido.IDPedido.Value, parcial);
-                        }
-                        //else
-                        //{
-                        //    AtualizarListaPedidos();
-                        //    frmNovoDelivery frm = new frmNovoDelivery(GUIDIdentificacao_selecionado, frmNovoDelivery.EstadoDelivery.Finalizar);
-                        //    pedido.DocumentoCliente = pedido.Cliente.Documento1;
-                        //    pedido.DtPedidoFechamento = DateTime.Now;
-                        //    pedido.SincERP = false;
-                        //    pedido.ValorTotal = pedido.ValorTotalProdutos;
-                        //    pedido.EmailCliente = pedido.Cliente.Email;
-                        //    frm.Pedido1 = pedido;
-                        //    frm.ShowDialog();
-                        //}
+
+                        NormalOuTouch.FechaPagamento(pedido.IDPedido.Value, parcial);
                     }
                 }
 
@@ -365,12 +349,9 @@ namespace a7D.PDV.Caixa.UI
 
         private void btnAdicionarProduto_Click(object sender, EventArgs e)
         {
-            PedidoInformation pedido;
             if (GUIDIdentificacao_selecionado != null)
             {
-                pedido = Pedido.CarregarUltimoPedido(GUIDIdentificacao_selecionado);
-
-                if (tipoPedido_selecionado == ETipoPedido.Delivery && pedido.Retirada == false)
+                if (tipoPedido_selecionado == ETipoPedido.Delivery)
                 {
                     using (var form = frmNovoDelivery.EditarPedidoDelivery(GUIDIdentificacao_selecionado))
                     {
@@ -484,7 +465,7 @@ namespace a7D.PDV.Caixa.UI
                         //,(item.Quantidade.Value * item.ValorUnitario.Value).ToString("#,##0.00")
                     };
 
-                    dgvItens.Rows.Add(row);
+                    dgvItens.Rows.Add(row);                      
                 }
             }
             else

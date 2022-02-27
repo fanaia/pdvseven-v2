@@ -29,6 +29,8 @@ namespace a7D.PDV.Caixa.UI.Controles
 
         public Action Fechar { get; set; }
         public Action Confirmar { get; set; }
+        public Action Pagamento { get; set; }
+        public Action ResumoCompletar { get; set; }
         public Action<PedidoProdutoInformation> ProdutoAdicionado { get; set; }
         public Action<PedidoProdutoInformation, InformacoesCancelamento?> ProdutoRemovido { get; set; }
         public Action<PedidoProdutoInformation, List<PedidoProdutoInformation>> ModificacaoAlterada { get; set; }
@@ -37,9 +39,11 @@ namespace a7D.PDV.Caixa.UI.Controles
         public bool PermitirDesconto { get; set; } = false;
 
         private Image ImgDesconto { get; set; } = Resources.desconto;
+
         private Image Vazio = Resources.semImagem;
 
         public bool Cancelar { get; set; } = true;
+        public Action EncerrarRetirada { get; internal set; }
 
         public PedidoProduto()
         {
@@ -439,6 +443,12 @@ namespace a7D.PDV.Caixa.UI.Controles
 
         private void btnConfirmar_Click(object sender, EventArgs e)
         {
+            if (Pedido1.Retirada == true)
+            {
+                ResumoCompletar();
+                return;
+            }
+
             if (Confirmar != null)
                 Confirmar();
             else Fechar?.Invoke();

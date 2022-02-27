@@ -334,7 +334,8 @@ namespace a7D.PDV.Caixa.UI.Controles
         {
             using (var frm = frmNovoDelivery.NovoPedidoDelivery(true))
             {
-                frm.ShowDialog();
+
+               frm.ShowDialog();
             }
 
             AtualizarLista();

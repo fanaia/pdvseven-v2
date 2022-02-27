@@ -130,11 +130,15 @@ namespace a7D.PDV.Model
         [CRUDParameterDAL(false, "IDUsuarioTaxaServico", "IDUsuario")]
         public UsuarioInformation UsuarioTaxaServico { get; set; }
 
+        [CRUDParameterDAL(false, "Retirada")]
+        public Boolean? Retirada { get; set; }
+
         public string NumeroComanda { get; set; }
         public string NumeroMesa { get; set; }
         public bool EnviarNfEmailCliente { get; set; }
         public Decimal? ValorContaCliente { get; set; }
         public Decimal? ValorSaldoCliente { get; set; }
+        
 
         public bool PodeEnviarEmailNfCliente
         {

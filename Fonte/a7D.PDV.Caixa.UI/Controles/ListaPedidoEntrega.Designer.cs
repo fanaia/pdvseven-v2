@@ -32,11 +32,11 @@ namespace a7D.PDV.Caixa.UI.Controles
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.txtPesquisarEntrega = new System.Windows.Forms.TextBox();
             this.dgvEntregas = new System.Windows.Forms.DataGridView();
             this.StatusPedido = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,8 +53,10 @@ namespace a7D.PDV.Caixa.UI.Controles
             this.label4 = new System.Windows.Forms.Label();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
             this.btnNovoPedidoRetirada = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             ((System.ComponentModel.ISupportInitialize)(this.dgvEntregas)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtPesquisarEntrega
@@ -64,7 +66,11 @@ namespace a7D.PDV.Caixa.UI.Controles
             this.txtPesquisarEntrega.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txtPesquisarEntrega.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPesquisarEntrega.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+<<<<<<< Updated upstream
             this.txtPesquisarEntrega.Location = new System.Drawing.Point(190, 95);
+=======
+            this.txtPesquisarEntrega.Location = new System.Drawing.Point(190, 62);
+>>>>>>> Stashed changes
             this.txtPesquisarEntrega.Margin = new System.Windows.Forms.Padding(5);
             this.txtPesquisarEntrega.Name = "txtPesquisarEntrega";
             this.txtPesquisarEntrega.Size = new System.Drawing.Size(335, 28);
@@ -76,8 +82,8 @@ namespace a7D.PDV.Caixa.UI.Controles
             this.dgvEntregas.AllowUserToAddRows = false;
             this.dgvEntregas.AllowUserToDeleteRows = false;
             this.dgvEntregas.AllowUserToResizeRows = false;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
-            this.dgvEntregas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(239)))), ((int)(((byte)(240)))));
+            this.dgvEntregas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvEntregas.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -87,15 +93,15 @@ namespace a7D.PDV.Caixa.UI.Controles
             this.dgvEntregas.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dgvEntregas.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
             this.dgvEntregas.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(193)))), ((int)(((byte)(207)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEntregas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(155)))), ((int)(((byte)(193)))), ((int)(((byte)(207)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEntregas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvEntregas.ColumnHeadersHeight = 40;
             this.dgvEntregas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.StatusPedido,
@@ -107,15 +113,15 @@ namespace a7D.PDV.Caixa.UI.Controles
             this.IDStatusPedido,
             this.Icone});
             this.dgvEntregas.ContextMenuStrip = this.contextMenuStrip1;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle8.Padding = new System.Windows.Forms.Padding(5);
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvEntregas.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(5);
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvEntregas.DefaultCellStyle = dataGridViewCellStyle3;
             this.dgvEntregas.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvEntregas.EnableHeadersVisualStyles = false;
             this.dgvEntregas.Location = new System.Drawing.Point(0, 149);
@@ -123,17 +129,17 @@ namespace a7D.PDV.Caixa.UI.Controles
             this.dgvEntregas.Name = "dgvEntregas";
             this.dgvEntregas.ReadOnly = true;
             this.dgvEntregas.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvEntregas.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvEntregas.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvEntregas.RowHeadersVisible = false;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(231)))), ((int)(((byte)(234)))));
-            dataGridViewCellStyle10.Padding = new System.Windows.Forms.Padding(5);
-            this.dgvEntregas.RowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(231)))), ((int)(((byte)(234)))));
+            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(5);
+            this.dgvEntregas.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.dgvEntregas.RowTemplate.DividerHeight = 1;
             this.dgvEntregas.RowTemplate.Height = 36;
             this.dgvEntregas.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
@@ -235,16 +241,25 @@ namespace a7D.PDV.Caixa.UI.Controles
             // 
             // btnNovoPedidoEntrega
             // 
+<<<<<<< Updated upstream
             this.btnNovoPedidoEntrega.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+=======
+            this.btnNovoPedidoEntrega.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+>>>>>>> Stashed changes
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNovoPedidoEntrega.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(198)))), ((int)(((byte)(63)))));
             this.btnNovoPedidoEntrega.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovoPedidoEntrega.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNovoPedidoEntrega.ForeColor = System.Drawing.Color.White;
             this.btnNovoPedidoEntrega.Location = new System.Drawing.Point(0, 0);
-            this.btnNovoPedidoEntrega.Margin = new System.Windows.Forms.Padding(7);
+            this.btnNovoPedidoEntrega.Margin = new System.Windows.Forms.Padding(0);
             this.btnNovoPedidoEntrega.Name = "btnNovoPedidoEntrega";
+<<<<<<< Updated upstream
             this.btnNovoPedidoEntrega.Size = new System.Drawing.Size(525, 43);
+=======
+            this.btnNovoPedidoEntrega.Size = new System.Drawing.Size(262, 57);
+>>>>>>> Stashed changes
             this.btnNovoPedidoEntrega.TabIndex = 75;
             this.btnNovoPedidoEntrega.Text = "&NOVO PEDIDO ENTREGA";
             this.btnNovoPedidoEntrega.UseVisualStyleBackColor = false;
@@ -252,7 +267,11 @@ namespace a7D.PDV.Caixa.UI.Controles
             // 
             // label4
             // 
+<<<<<<< Updated upstream
             this.label4.Location = new System.Drawing.Point(0, 95);
+=======
+            this.label4.Location = new System.Drawing.Point(0, 62);
+>>>>>>> Stashed changes
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(181, 28);
@@ -273,37 +292,68 @@ namespace a7D.PDV.Caixa.UI.Controles
             // 
             // btnNovoPedidoRetirada
             // 
+<<<<<<< Updated upstream
             this.btnNovoPedidoRetirada.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+=======
+            this.btnNovoPedidoRetirada.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+>>>>>>> Stashed changes
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnNovoPedidoRetirada.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(140)))), ((int)(((byte)(198)))), ((int)(((byte)(63)))));
             this.btnNovoPedidoRetirada.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNovoPedidoRetirada.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNovoPedidoRetirada.ForeColor = System.Drawing.Color.White;
+<<<<<<< Updated upstream
             this.btnNovoPedidoRetirada.Location = new System.Drawing.Point(0, 40);
             this.btnNovoPedidoRetirada.Margin = new System.Windows.Forms.Padding(7);
             this.btnNovoPedidoRetirada.Name = "btnNovoPedidoRetirada";
             this.btnNovoPedidoRetirada.Size = new System.Drawing.Size(525, 43);
             this.btnNovoPedidoRetirada.TabIndex = 77;
             this.btnNovoPedidoRetirada.Text = "NOVO PEDIDO &RETIRADA";
+=======
+            this.btnNovoPedidoRetirada.Location = new System.Drawing.Point(262, 0);
+            this.btnNovoPedidoRetirada.Margin = new System.Windows.Forms.Padding(0);
+            this.btnNovoPedidoRetirada.Name = "btnNovoPedidoRetirada";
+            this.btnNovoPedidoRetirada.Size = new System.Drawing.Size(263, 57);
+            this.btnNovoPedidoRetirada.TabIndex = 77;
+            this.btnNovoPedidoRetirada.Text = "&NOVO PEDIDO RETIRADA";
+>>>>>>> Stashed changes
             this.btnNovoPedidoRetirada.UseVisualStyleBackColor = false;
             this.btnNovoPedidoRetirada.Click += new System.EventHandler(this.btnNovoPedidoRetirada_Click);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Controls.Add(this.btnNovoPedidoRetirada, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.btnNovoPedidoEntrega, 0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 3);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(525, 57);
+            this.tableLayoutPanel1.TabIndex = 78;
             // 
             // ListaPedidoEntrega
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.btnNovoPedidoRetirada);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtPesquisarEntrega);
             this.Controls.Add(this.dgvEntregas);
-            this.Controls.Add(this.btnNovoPedidoEntrega);
             this.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ListaPedidoEntrega";
             this.Size = new System.Drawing.Size(525, 433);
             ((System.ComponentModel.ISupportInitialize)(this.dgvEntregas)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
+            this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -327,5 +377,6 @@ namespace a7D.PDV.Caixa.UI.Controles
         private System.Windows.Forms.DataGridViewTextBoxColumn IDStatusPedido;
         private System.Windows.Forms.DataGridViewImageColumn Icone;
         private System.Windows.Forms.Button btnNovoPedidoRetirada;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
     }
 }

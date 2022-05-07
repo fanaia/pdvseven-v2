@@ -86,7 +86,7 @@ namespace a7D.PDV.AutoAtendimento.UI.Paginas
                         if (pedidoComanda != null && pedidoComanda.IDPedido.HasValue && pedidoComanda.Cliente != null && pedidoComanda.Cliente.IDCliente.HasValue)
                         {
                             var cliente = BLL.Cliente.Carregar(pedidoComanda.Cliente.IDCliente.Value);
-                            if (cliente != null)
+                            if (cliente != null && !String.IsNullOrEmpty(cliente.Documento1))
                             {
                                 App.Pedido.Comanda_Numero = comanda.Numero.Value;
                                 App.Pedido.Comanda_IDCliente = cliente.IDCliente.Value;
@@ -94,6 +94,13 @@ namespace a7D.PDV.AutoAtendimento.UI.Paginas
                                 App.Pedido.Comanda_ClienteDocumento = cliente.Documento1;
                                 App.Pedido.Comanda_ClienteTelefone = $"({cliente.Telefone1DDD}) {cliente.Telefone1}";
                                 App.Navigate<ComandaClienteConfirmacaoPage>();
+                            }
+                            else if(String.IsNullOrEmpty(cliente.Documento1))
+                            {
+                                ModalSimNaoWindow.Show($"Oi {cliente.NomeCompleto}! \n\rDesculpe, mas apenas clientes com CPF/CNPJ cadastrado podem usar o Autoatendimento... \n\rVá até o caixa!");
+                                bufferKeyboard = "";
+                                App.Navigate<InicialPage>();
+                                return;
                             }
                             else
                             {

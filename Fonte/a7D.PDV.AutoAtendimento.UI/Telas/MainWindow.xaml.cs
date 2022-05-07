@@ -21,6 +21,10 @@ namespace a7D.PDV.AutoAtendimento.UI
             timer = new DispatcherTimer();
             timer.Tick += DispatcherTimer_Tick;
             timer.Interval = TimeSpan.FromMilliseconds(1000);
+
+            //apenas para dev, o tempo de inatividade foi alterado
+            //timer.Interval = TimeSpan.FromMilliseconds(90000);
+
             timer.Start();
         }
 
